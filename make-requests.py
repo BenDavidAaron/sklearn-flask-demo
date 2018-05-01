@@ -2,7 +2,7 @@ import requests
 from random import randint
 from time import sleep
 
-for _ in range(10):
+for _ in range(3):
 	print("### New Request")
 	x = randint(-9,19)
 	y = randint(-9,19)

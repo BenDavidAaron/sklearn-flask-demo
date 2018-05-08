@@ -1,5 +1,4 @@
 # sklearn-flask-demo
 Hey all, this is the demo app for my lighting talk at [this event](https://www.meetup.com/sfpython/events/250124870/).
 
-In order to use the app, you need to run `generate_training_data.py` and `train_sgd_model.py` 
-in order to get a working model to deploy in the app (You can also just pull and run the `master` branch). 
+To demonstrate loading and using a Scikit Learn estimator in a Flask app, you can just run `app.py` in a tmux session. Then run `make-requests.py` in another session, or check `0.0.0.0:33507` in your browser. 
